@@ -55,8 +55,8 @@ function followMe(){
 	var invertMouseY = windowY-mouseY;
 	
 	//Determining which percentage of the screen the mouse is in
-	var xPercent = Math.floor(mouseX/windowX*100);
-	var yPercent = Math.floor(mouseY/windowY*100) + 6;
+	var xPercent = (mouseX/windowX*100);
+	var yPercent = (mouseY/windowY*100);
 	
 	//Just storing the value that is half the screen height and width
 	var halfScreenx = windowX/2;
